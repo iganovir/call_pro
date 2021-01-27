@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img_main_menu"
+    android:gravity="center|left"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnMenuMakanan"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/btn_main_menu"
+        app:backgroundTint="@color/brown_menu"
+        android:textColor="@color/text_menu"
+        android:text="がっこうへ　いきます。 "
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:id="@+id/btnMenuKegiatan"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/btn_main_menu"
+        app:backgroundTint="@color/brown_menu"
+        android:textColor="@color/text_menu"
+        android:text="あさ　６じに　おきます。"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:id="@+id/btnMenuKendaraan"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/btn_main_menu"
+        app:backgroundTint="@color/brown_menu"
+        android:textColor="@color/text_menu"
+        android:text="がっこうへ　いきます。 "
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:id="@+id/btnMenuTest"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/btn_main_menu"
+        app:backgroundTint="@color/brown_menu"
+        android:textColor="@color/text_menu"
+        android:text="テスト"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="left|center"/>
+
+</LinearLayout>

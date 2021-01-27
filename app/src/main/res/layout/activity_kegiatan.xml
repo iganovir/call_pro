@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_kegiatan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTitle"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white_yellow"
+        android:paddingLeft="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tvJapantTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毎日の生活 "
+            android:fontFamily="@font/quicksand_bold"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvIndoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kegiatan sehari hari"
+            android:textColor="@color/black"
+            android:fontFamily="@font/quicksand_bold"
+            app:layout_constraintTop_toBottomOf="@id/tvJapantTitle"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListKegiatan"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/clTitle"
+        app:layout_constraintBottom_toTopOf="@id/clFooter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        android:orientation="horizontal"
+        tools:listitem="@layout/item_list"
+        android:layout_marginStart="16dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_75sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/white_brown"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.king.view.supertextview.SuperTextView
+            android:id="@+id/tvJapanVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毎日の生活 "
+            android:fontFamily="@font/quicksand_bold"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <View
+            android:id="@+id/dash"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="4dp"
+            android:background="@drawable/view_dash"
+            app:layout_constraintTop_toBottomOf="@id/tvJapanVersion"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.king.view.supertextview.SuperTextView
+            android:id="@+id/tvIndoVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kegiatan sehari hari"
+            android:fontFamily="@font/quicksand_medium"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/dash"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

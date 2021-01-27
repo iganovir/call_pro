@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">Call</string>
+
+<!--    Onboard-->
+    <string name="talk_japan_1">こんにちは。今、なにをしますか。</string>
+    <string name="talk_indo_1">Hai Kamu sedang apa?</string>
+    <string name="talk_japan_2">日常の会話のことを知っていますか。</string>
+    <string name="talk_indo_2">Apakah kamu tau mengenai percakapan sehari-hari?</string>
+    <string name="talk_japan_3">いっしょに日常の会話のことを勉強しましょう。</string>
+    <string name="talk_indo_3">Mari kita belajar mengenai percakapan sehari-hari</string>
+
+<!--    Makanan-->
+    <string name="makanan_japan">たべもの</string>
+    <string name="makanan">Makanan</string>
+    <string name="nasi_japan">ごはん</string>
+    <string name="nasi">Nasi</string>
+    <string name="roti_japan">パン</string>
+    <string name="roti">Roti</string>
+    <string name="daging_japan">にく</string>
+    <string name="daging">Daging</string>
+    <string name="ikan_japan">さかな</string>
+    <string name="ikan">Ikan</string>
+    <string name="telur_japan">たまご</string>
+    <string name="telur">Telur</string>
+    <string name="sayuran_japan">やさい</string>
+    <string name="sayuran">Sayuran</string>
+    <string name="buah_japan">くだもの</string>
+    <string name="buah">Buah-buahan</string>
+
+<!--    Minuman-->
+    <string name="minuman_japan">のみもの</string>
+    <string name="minuman">Minuman</string>
+    <string name="air_japan">みず</string>
+    <string name="air">Air</string>
+    <string name="kopi_japan">コーヒー</string>
+    <string name="kopi">Kopi</string>
+    <string name="teh_japan">こうちゃ</string>
+    <string name="teh">teh</string>
+    <string name="jus_japan">ジュース</string>
+    <string name="jus">Jus</string>
+    <string name="susu_japan">ミルク</string>
+    <string name="susu">Susu</string>
+
+<!--    Jam dalam makan-->
+    <string name="makan_pagi_japan">あさごはん</string>
+    <string name="makan_pagi">Makan Pagi</string>
+    <string name="makan_siang_jaapan">ひるごはん</string>
+    <string name="makan_siang">Makan siang</string>
+    <string name="makan_malam_japan">ばんごはん</string>
+    <string name="makan_malam">Makan malam</string>
+
+<!--    Pola kalimat makanan-->
+    <string name="pola_kalimat">Pola Kalimat</string>
+    <string name="pola_kalimat_makanan">KW (waktu) KB (benda) を(o) KK (kerja)　</string>
+    <string name="kalimat_makan_japan">たべます/ たべません/ たべますか </string>
+    <string name="kalimat_makan">tabemasu / tabemasen / tabemasuka?</string>
+
+<!--    Percakapan makanan dalam jepang-->
+    <string name="bubble_1_japan_makan">あさ　なにを　たべますか。</string>
+    <string name="bubble_1_makan">Pagi Makan Apa?</string>
+    <string name="bubble_2_japan_makan">あさ　ごはんを たべます。 </string>
+    <string name="bubble_2_makan">Pagi Makan Nasi</string>
+    <string name="bubble_3_japan_makan">なにも たべません。</string>
+    <string name="bubble_3_makan">Tidak Makan Apa-apa</string>
+
+<!--    Kegiatan-->
+    <string name="kegiatan_japan">かつどう</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="cucimuka_japan">かおをあらいます</string>
+    <string name="cucimuka">Mencuci Muka</string>
+    <string name="sikatgigi_japan">はをみがきます。</string>
+    <string name="sikatgigi">Sikat gigi </string>
+    <string name="mandi_japan">みずをあびます。</string>
+    <string name="mandi">Mandi</string>
+    <string name="sarapan_japan">ごはんをたべます。</string>
+    <string name="sarapan">Sarapan</string>
+    <string name="minumteh_japan">こちゃをのみます。</string>
+    <string name="minumteh">Minum teh</string>
+    <string name="membacakoran_japan">しんぶんをよみます。</string>
+    <string name="membacakoran">Membaca koran</string>
+    <string name="mendengarkan_lagu_japan">おんがくをききます。</string>
+    <string name="mendengarkan_lagu">Mendengarkan Lagu</string>
+    <string name="menulis_surat_japan">てがみをかきます。</string>
+    <string name="menulis_surat">Menulis Surat</string>
+    <string name="menonton_tv_japan">テレビを みます。</string>
+    <string name="menonton_tv">Menonton TV</string>
+    <string name="mengejakan_pr_japan">しゅくだいを します。</string>
+    <string name="mengejakan_pr">Mengerjakan PR</string>
+    <string name="berdoa_japan">おいのりを します。</string>
+    <string name="berdoa">Berdoa</string>
+    <string name="mencuci_japan">せんたくします。</string>
+    <string name="mencuci">Mencuci</string>
+    <string name="bersih_japan">そうじします</string>
+    <string name="bersih">Bersih-bersih</string>
+    <string name="tidur_japan">ねます</string>
+    <string name="tidur">Tidur</string>
+    <string name="bangun_japan">おきます</string>
+    <string name="bangun">Bangun</string>
+    <string name="pergi_ke_japan">日本へ いきます。</string>
+    <string name="pergi_ke">pergi ke Jepang</string>
+    <string name="pulang_japan">うちへ かえります</string>
+    <string name="pulang">pulang ke rumah</string>
+    <string name="datang_japan">がっこうへ きます。</string>
+    <string name="datang">Datang ke sekolah</string>
+
+    <string-array name="kegiatanjapan">
+        <item>@string/cucimuka_japan</item>
+        <item>@string/sikatgigi_japan</item>
+        <item>@string/mandi_japan</item>
+        <item>@string/sarapan_japan</item>
+        <item>@string/minumteh_japan</item>
+        <item>@string/membacakoran_japan</item>
+        <item>@string/mendengarkan_lagu_japan</item>
+        <item>@string/menulis_surat_japan</item>
+        <item>@string/menonton_tv_japan</item>
+        <item>@string/mengejakan_pr_japan</item>
+        <item>@string/berdoa_japan</item>
+        <item>@string/mencuci_japan</item>
+        <item>@string/bersih_japan</item>
+        <item>@string/tidur_japan</item>
+        <item>@string/bangun_japan</item>
+        <item>@string/pergi_ke_japan</item>
+        <item>@string/pulang_japan</item>
+        <item>@string/datang_japan</item>
+    </string-array>
+
+    <string-array name="kegiatanindo">
+        <item>@string/cucimuka</item>
+        <item>@string/sikatgigi</item>
+        <item>@string/mandi</item>
+        <item>@string/sarapan</item>
+        <item>@string/minumteh</item>
+        <item>@string/membacakoran</item>
+        <item>@string/mendengarkan_lagu</item>
+        <item>@string/menulis_surat</item>
+        <item>@string/menonton_tv</item>
+        <item>@string/mengejakan_pr</item>
+        <item>@string/berdoa</item>
+        <item>@string/mencuci</item>
+        <item>@string/bersih</item>
+        <item>@string/tidur</item>
+        <item>@string/bangun</item>
+        <item>@string/pergi_ke</item>
+        <item>@string/pulang</item>
+        <item>@string/datang</item>
+    </string-array>
+
+<!--    Pola kalimat kegiatan-->
+    <string name="pola_kalimat_kegiatan">KB（benda）を　KK（bentuk-masu）ます</string>
+
+<!--    Percakapan dalam kegiatan-->
+    <string name="bubble_1_japan_kegiatan">あさ　なんじに　おきますか。 </string>
+    <string name="bubble_1_kegiatan">Pagi bangun jam berapa?</string>
+    <string name="bubble_2_japan_kegiatan">あさ　６じに　おきます。</string>
+    <string name="bubble_2_kegiatan">Pagi bangun jam 6</string>
+    <string name="bubble_3_japan_kegiatan">まいひる　なんじごる　ごはんを　たべますか。</string>
+    <string name="bubble_3_kegiatan">Setiap siang kira-kira Makan jam berapa?</string>
+    <string name="bubble_4_japan_kegiatan">まいひる　１２時ごる　ごはんを　たべます </string>
+    <string name="bubble_4_kegiatan">Setiap siang kira-kira Makan jam 12</string>
+
+<!--    Kendaraan-->
+    <string name="kendaraan_japan">のりもの</string>
+    <string name="kendaraan">Kendaraan</string>
+    <string name="bis_japan">バス</string>
+    <string name="bis">Bis</string>
+    <string name="motor_japan">バイク</string>
+    <string name="motor">Motor</string>
+    <string name="sepeda_japan">じてんしゃ</string>
+    <string name="sepeda">Sepeda</string>
+    <string name="mobil_japan">くるま</string>
+    <string name="mobil">Mobil</string>
+
+<!--    Pola kalimat dalam kendaraan-->
+    <string name="pola_kalimat_kendaraan">KB (alat transportasi) で KB (tempat) へ いきます/きます/かえります。</string>
+    <string name="pola_kalimat_kendaraan2">KB (tempat)から KB2 (tempat)まで KB(alat transportasi)で KB (jangka waktu)ぐ らいです</string>
+
+<!--    Percakapan dalam kendaraan-->
+    <string name="bubble_1_japan_kendaraan">うちから　がっこうまで　なにで　いきますか </string>
+    <string name="bubble_1_kendaraan">Dari rumah ke sekolah naik apa?</string>
+    <string name="bubble_2_japan_kendaraan">うちから　がっこうまで　バスで　いきますか </string>
+    <string name="bubble_2_kendaraan">Dari rumah ke sekolah naik bis</string>
+    <string name="bubble_3_japan_kendaraan">どのぐらいですか </string>
+    <string name="bubble_3_kendaraan">Sekitar Berapa Lama?</string>
+    <string name="bubble_4_japan_kendaraan">うちから　がっこうまで　バスで　いきますか </string>
+    <string name="bubble_4_kendaraan">Sekitar 30 Menit</string>
+
+<!--    Test-->
+    <string name="test_japan">テスト </string>
+    <string name="test">Test</string>
+    <string name="aturan_test_japan">えのように、ただしい　ぶんを　えらんでください！</string>
+
+    <string name="test1_option1">かおをあらいます。</string>
+    <string name="test1_option2">はをみがきます。</string>
+    <string name="test1_option3">みずをあびます。</string>
+    <string name="test1_option4">ごはんをたべます。</string>
+
+    <string name="test2_option1">こちゃをのみます。</string>
+    <string name="test2_option2">おんがくをききます。</string>
+    <string name="test2_option3">はをみがきます。</string>
+    <string name="test2_option4">しんぶんをよみます。</string>
+
+    <string name="test3_option1">こちゃをのみます。</string>
+    <string name="test3_option2">おんがくをききます。</string>
+    <string name="test3_option3">はをみがきます。</string>
+    <string name="test3_option4">しんぶんをよみます。</string>
+
+    <string name="test4_option1">おんがくをききます。</string>
+    <string name="test4_option2">はをみがきます。</string>
+    <string name="test4_option3">しんぶんをよみます。</string>
+    <string name="test4_option4">しゅくだいをみます。</string>
+
+    <string name="test5_option1">テレビをみます。</string>
+    <string name="test5_option2">はをみがきます。</string>
+    <string name="test5_option3">みずをあびます。</string>
+    <string name="test5_option4">ごはんをたべます。</string>
+
+    <string name="test6_option1">テレビをみます。</string>
+    <string name="test6_option2">おいのりをします。</string>
+    <string name="test6_option3">みずをあびます。</string>
+    <string name="test6_option4">ごはんをたべます。</string>
+
+    <string name="test7_option1">おいのりをします。</string>
+    <string name="test7_option2">せんたくします。</string>
+    <string name="test7_option3">そうじします。</string>
+    <string name="test7_option4">みずをあびます。</string>
+
+    <string name="test8_option1">うちから　がっこうまで　バスで　４５分　ぐらいです。</string>
+    <string name="test8_option2">うちから　モールまで　バイクで　４５分　ぐらいです。</string>
+    <string name="test8_option3">がっこうから　うちまで　バスで　４５分　ぐらいです。</string>
+    <string name="test8_option4">モールから　がっこうまで　バイクで　４５分　ぐらいです。</string>
+
+    <string name="test9_option1">うちから　がっこうまで　バスで　１５分　ぐらいです。</string>
+    <string name="test9_option2">がっこうから　モールまで　バイクで　１５分　ぐらいです。</string>
+    <string name="test9_option3">がっこうから　うちまで　バスで　１５分　ぐらいです。</string>
+    <string name="test9_option4">うちから　がっこうまで　バイクで　１５分　ぐらいです。</string>
+
+    <string name="test10_option1">うちから　がっこうまで　くるまで　２５分　ぐらいです。</string>
+    <string name="test10_option2">がっこうから　モールまで　バイクで　２５分　ぐらいです。</string>
+    <string name="test10_option3">がっこうから　うちまで　バスで　２５分　ぐらいです。</string>
+    <string name="test10_option4">うちから　モールまで　くるまで　２５分　ぐらいです。</string>
+
+    <string name="point_100">おめでとう１００まんてんです！</string>
+    <string name="point_wrong">ざんねん、しっぱい　でした！</string>
+
+    <string name="kembali">エンド</string>
+    <string name="coba_sekali_lagi">もう１かい</string>
+    <string name="selanjutnya">つぎ </string>
+    <string name="menu">メニュー</string>
+
+
+</resources>

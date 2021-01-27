@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_onboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_112sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/white_brown"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.king.view.supertextview.SuperTextView
+            android:id="@+id/tvJapanVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:text="@string/talk_japan_1"
+            android:fontFamily="@font/quicksand_bold"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <View
+            android:id="@+id/dash"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="4dp"
+            android:background="@drawable/view_dash"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:layout_constraintTop_toBottomOf="@id/tvJapanVersion"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.king.view.supertextview.SuperTextView
+            android:id="@+id/tvIndoVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:text="@string/talk_indo_1"
+            android:fontFamily="@font/quicksand_regular"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:layout_constraintTop_toBottomOf="@id/dash"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
