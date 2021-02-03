@@ -6,6 +6,9 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.call.learnjapanese.R
 import com.call.learnjapanese.databinding.ActivityMenuBinding
+import com.call.learnjapanese.ui.kegiatan.KegiatanActivity
+import com.call.learnjapanese.ui.kendaraan.KendaraanActivity
+import com.call.learnjapanese.ui.makanan.MakananActivity
 import com.call.learnjapanese.util.viewBinding
 
 /**

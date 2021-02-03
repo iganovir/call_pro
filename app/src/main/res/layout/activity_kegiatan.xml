@@ -28,7 +28,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-
         <TextView
             android:id="@+id/tvIndoTitle"
             android:layout_width="wrap_content"
@@ -39,11 +38,23 @@
             app:layout_constraintTop_toBottomOf="@id/tvJapantTitle"
             app:layout_constraintStart_toStartOf="parent"/>
 
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ivHelp"
+        android:layout_width="@dimen/_36sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:src="@drawable/ic_help"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListKegiatan"
-        android:layout_width="@dimen/_300sdp"
+        android:layout_width="@dimen/_350sdp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/clTitle"
         app:layout_constraintBottom_toTopOf="@id/clFooter"
@@ -73,9 +84,20 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 
+        <ImageView
+            android:id="@+id/ivSoundJapan"
+            android:visibility="gone"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@mipmap/ic_sound"
+            app:layout_constraintStart_toEndOf="@id/tvJapanVersion"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/dash"/>
+
         <View
             android:id="@+id/dash"
-            android:layout_width="@dimen/_300sdp"
+            android:layout_width="@dimen/_250sdp"
             android:layout_height="4dp"
             android:background="@drawable/view_dash"
             app:layout_constraintTop_toBottomOf="@id/tvJapanVersion"
@@ -92,6 +114,70 @@
             app:layout_constraintTop_toBottomOf="@id/dash"
             app:layout_constraintStart_toStartOf="parent"/>
 
+        <ImageView
+            android:id="@+id/ivSoundIndo"
+            android:visibility="gone"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:src="@mipmap/ic_sound"
+            app:layout_constraintStart_toEndOf="@id/tvIndoVersion"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/dash"/>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_26sdp"
+            android:background="@drawable/btn_arrow"
+            app:backgroundTint="@color/yellow_option"
+            android:textColor="@color/green"
+            android:text="@string/kembali"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnMenu"
+            android:layout_marginEnd="8dp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_26sdp"
+            android:background="@drawable/btn_menu"
+            app:backgroundTint="@color/yellow_option"
+            android:textColor="@color/green"
+            android:text="@string/menu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnSelanjutnya"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnSelanjutnya"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_26sdp"
+            android:background="@drawable/btn_arrow_right"
+            app:backgroundTint="@color/yellow_option"
+            android:textColor="@color/green"
+            android:text="@string/selanjutnya"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:gravity="center"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

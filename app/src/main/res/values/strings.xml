@@ -103,19 +103,26 @@
     <string name="datang_japan">がっこうへ きます。</string>
     <string name="datang">Datang ke sekolah</string>
 
-    <string-array name="kegiatanjapan">
+    <string-array name="kegiatanjapan1">
         <item>@string/cucimuka_japan</item>
         <item>@string/sikatgigi_japan</item>
         <item>@string/mandi_japan</item>
         <item>@string/sarapan_japan</item>
         <item>@string/minumteh_japan</item>
         <item>@string/membacakoran_japan</item>
+    </string-array>
+
+    <string-array name="kegiatanjapan2">
         <item>@string/mendengarkan_lagu_japan</item>
         <item>@string/menulis_surat_japan</item>
         <item>@string/menonton_tv_japan</item>
         <item>@string/mengejakan_pr_japan</item>
         <item>@string/berdoa_japan</item>
         <item>@string/mencuci_japan</item>
+    </string-array>
+
+
+    <string-array name="kegiatanjapan3">
         <item>@string/bersih_japan</item>
         <item>@string/tidur_japan</item>
         <item>@string/bangun_japan</item>
@@ -131,12 +138,18 @@
         <item>@string/sarapan</item>
         <item>@string/minumteh</item>
         <item>@string/membacakoran</item>
+    </string-array>
+
+    <string-array name="kegiatanindo2">
         <item>@string/mendengarkan_lagu</item>
         <item>@string/menulis_surat</item>
         <item>@string/menonton_tv</item>
         <item>@string/mengejakan_pr</item>
         <item>@string/berdoa</item>
         <item>@string/mencuci</item>
+    </string-array>
+
+    <string-array name="kegiatanindo3">
         <item>@string/bersih</item>
         <item>@string/tidur</item>
         <item>@string/bangun</item>
@@ -246,6 +259,12 @@
     <string name="coba_sekali_lagi">もう１かい</string>
     <string name="selanjutnya">つぎ </string>
     <string name="menu">メニュー</string>
+
+    <!--    Pop up makanan-->
+    <string name="catatan">Catatan</string>
+    <string name="pop_up_text1">ごはん Mempunyai 2 Makna, yaitu :</string>
+    <string name="pop_up_text2">1. Berarti Nasi Putih</string>
+    <string name="pop_up_text3">2. Berarti Lauk Pauk</string>
 
 
 </resources>

@@ -1,23 +1,20 @@
 package com.call.learnjapanese.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.call.learnjapanese.ListJawabanAdapter
-import com.call.learnjapanese.ListKendaraanAdapter
 import com.call.learnjapanese.R
-import com.call.learnjapanese.databinding.ActivityKendaraanBinding
-import com.call.learnjapanese.databinding.ActivityTquizBinding
+import com.call.learnjapanese.databinding.ActivityQuizBinding
 import com.call.learnjapanese.util.viewBinding
-import com.king.view.supertextview.SuperTextView
 
 /**
  * @author [Iga Noviyanti R] on 24/01/2021 at 10:03.
  */
 class TestActivity : AppCompatActivity() {
 
-    private val binding by viewBinding<ActivityTquizBinding>()
+    private val binding by viewBinding<ActivityQuizBinding>()
     private val adapter = ListJawabanAdapter()
     private var pos = 0
 
@@ -49,12 +46,19 @@ class TestActivity : AppCompatActivity() {
                     pos++
                     if (pos < 7) {
                         adapter.addPosSoal(pos)
+                        tvNumber.text = "${pos + 1}"
+                        ivTest.setImageResource(listImg[pos])
+                    }else{
+                        val i = Intent(this@TestActivity, Test2Activity::class.java)
+                        i.putExtra("result", true)
+                        startActivity(i)
+                        finish()
                     }
-                    tvNumber.text = "${pos + 1}"
-                    ivTest.setImageResource(listImg[pos])
                 }else{
+                    val i = Intent(this@TestActivity, ResultTestActivity::class.java)
+                    i.putExtra("result", false)
+                    startActivity(i)
                     finish()
-                    Toast.makeText(this@TestActivity, "salah", Toast.LENGTH_SHORT).show()
                 }
             }
         }

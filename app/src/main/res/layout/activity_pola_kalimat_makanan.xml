@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_pola_kalimat_makanan">
+    android:background="@drawable/img_makan_pagi">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clTitle"
@@ -76,7 +76,7 @@
 
         <View
             android:id="@+id/dash"
-            android:layout_width="@dimen/_300sdp"
+            android:layout_width="@dimen/_250sdp"
             android:layout_height="4dp"
             android:background="@drawable/view_dash"
             app:layout_constraintTop_toBottomOf="@id/tvJapanVersion"

@@ -1,4 +1,4 @@
-package com.call.learnjapanese.ui
+    package com.call.learnjapanese.ui
 
 import com.call.learnjapanese.R
 
@@ -19,7 +19,7 @@ class ListVar {
     private val audioMinumanId = mutableListOf(R.raw.minuman_juice_id, R.raw.minuman_susu_id, R.raw.minuman_teh_id, R.raw.minuman_air_id, R.raw.minuman_kopi_id)
 
     /** Kegiatan */
-    private val audioKegiatanJp = mutableListOf(R.raw.kegiatan_bangun_jp, R.raw.kegiatan_berdoa_jp, R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_datang_ke_sekolah_jp, R.raw.kegiatan_judul, R.raw.kegiatan_mandi_jp, R.raw.kegiatan_membaca_koran_jp, R.raw.kegiatan_mencuci_jp, R.raw.kegiatan_mencuci_muka_jp, R.raw.kegiatan_mendengar_lagu_jp, R.raw.kegiatan_mengerjakan_pr_jp, R.raw.kegiatan_menulis_surat_jp, R.raw.kegiatan_minum_teh_jp, R.raw.kegiatan_nonton_tv_jp )
+    private val audioKegiatanJp = mutableListOf(R.raw.kegiatan_bangun_jp, R.raw.kegiatan_berdoa_jp, R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_informasi_makan, R.raw.kegiatan_judul, R.raw.kegiatan_mandi_jp, R.raw.kegiatan_membaca_koran_jp, R.raw.kegiatan_mencuci_jp, R.raw.kegiatan_mencuci_muka_jp, R.raw.kegiatan_mendengar_lagu_jp, R.raw.kegiatan_mengerjakan_pr_jp, R.raw.kegiatan_menulis_surat_jp, R.raw.kegiatan_minum_teh_jp, R.raw.kegiatan_nonton_tv_jp )
     private val audioKegiatanId = mutableListOf(R.raw.kegiatan_bangun_id, R.raw.kegiatan_berdoa_id, R.raw.kegiatan_bersih_bersih_id, R.raw.kegiatan_datang_ke_sekolah_id, R.raw.kegiatan_judul, R.raw.kegiatan_mandi_id, R.raw.kegiatan_membaca_koran_id, R.raw.kegiatan_mencuci_id, R.raw.kegiatan_mencuci_muka_id, R.raw.kegiatan_mendengar_lagu_id, R.raw.kegiatan_mengerjakan_pr_id, R.raw.kegiatan_menulis_surat_id, R.raw.kegiatan_minum_teh_id, R.raw.kegiatan_nonton_tv_id )
     private val audioKegiatanPercakapan = mutableListOf(R.raw.kegiatan_percakapan_1, R.raw.kegiatan_percakapan_2, R.raw.kegiatan_percakapan_3, R.raw.kegiatan_percakapan_4, R.raw.kegiatan_pola_kalimat)
 

@@ -53,7 +53,15 @@ class OnboardingActivity : AppCompatActivity() {
                 sound.start()
                 typeWriter()
             }
-            else startActivity(Intent(this, MenuActivity::class.java))
+            else {
+                if(sound.isPlaying)
+                {
+                    sound.stop()
+                    sound.release()
+                }
+                startActivity(Intent(this, MenuActivity::class.java))
+                finish()
+            }
 
         }
 

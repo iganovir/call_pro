@@ -4,13 +4,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_call"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_call"
         android:supportsRtl="true"
         android:theme="@style/Theme.Call" >
 
-        <activity android:name=".ui.PolaKalimatMakananActivity" android:screenOrientation="landscape">
+        <activity android:name=".ui.SplashscreenActivity" android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +20,15 @@
 
         <activity android:name=".ui.OnboardingActivity" android:screenOrientation="landscape"/>
         <activity android:name=".ui.MenuActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".ui.MakananActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".ui.KegiatanActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".ui.KendaraanActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.makanan.MakananActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.kegiatan.KegiatanActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.kendaraan.KendaraanActivity" android:screenOrientation="landscape"/>
         <activity android:name=".ui.TestActivity" android:screenOrientation="landscape"/>
-<!--        <activity android:name=".ui.PolaKalimatMakananActivity" android:screenOrientation="landscape"/>-->
+        <activity android:name=".ui.Test2Activity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.makanan.PolaKalimatMakananActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.kegiatan.PercakapanKegiatanActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.ResultTestActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".ui.kendaraan.PercakapanKendaraanActivity" android:screenOrientation="landscape"/>
 
     </application>
 

@@ -20,7 +20,10 @@ class ListJawabanAdapter  : RecyclerView.Adapter<ListJawabanAdapter.MyViewHolder
             4 to arrayOf(R.string.test4_option1,R.string.test4_option2,R.string.test4_option3,R.string.test4_option4),
             5 to arrayOf(R.string.test5_option1,R.string.test5_option2,R.string.test5_option3,R.string.test5_option4),
             6 to arrayOf(R.string.test6_option1,R.string.test6_option2,R.string.test6_option3,R.string.test6_option4),
-            7 to arrayOf(R.string.test7_option1,R.string.test7_option2,R.string.test7_option3,R.string.test7_option4)
+            7 to arrayOf(R.string.test7_option1,R.string.test7_option2,R.string.test7_option3,R.string.test7_option4),
+            8 to arrayOf(R.string.test8_option1,R.string.test8_option2,R.string.test8_option3,R.string.test8_option4),
+            9 to arrayOf(R.string.test9_option1,R.string.test9_option2,R.string.test9_option3,R.string.test9_option4),
+            10 to arrayOf(R.string.test10_option1,R.string.test10_option2,R.string.test10_option3,R.string.test10_option4)
     )
 
     inner class MyViewHolder(private val binding : ItemListJawabanBinding) : RecyclerView.ViewHolder(binding.root){
