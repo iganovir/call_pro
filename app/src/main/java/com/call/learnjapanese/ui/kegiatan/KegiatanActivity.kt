@@ -1,16 +1,21 @@
 package com.call.learnjapanese.ui.kegiatan
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import android.widget.EditText
+import android.widget.ImageView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.call.learnjapanese.ListKegiatanAdapter
 import com.call.learnjapanese.R
 import com.call.learnjapanese.databinding.ActivityKegiatanBinding
 import com.call.learnjapanese.util.viewBinding
 import com.king.view.supertextview.SuperTextView
+
 
 /**
  * @author [Iga Noviyanti R] on 24/01/2021 at 7:59.
@@ -24,26 +29,26 @@ class KegiatanActivity : AppCompatActivity() {
     private val listImgKegiatan1 = mutableListOf(R.drawable.img_facewash, R.drawable.img_toothbrush, R.drawable.img_bath, R.drawable.img_breakfast, R.drawable.img_tea,
             R.drawable.img_newspaper)
 
-    private val listImgKegiatan2 = mutableListOf(R.drawable.img_listeningmusic, R.drawable.img_letter, R.drawable.img_watchtv , R.drawable.img_homework, R.drawable.img_praying, R.drawable.img_mencuci)
+    private val listImgKegiatan2 = mutableListOf(R.drawable.img_listeningmusic, R.drawable.img_letter, R.drawable.img_watchtv, R.drawable.img_homework, R.drawable.img_praying, R.drawable.img_mencuci)
 
 
     private val listImgKegiatan3 = mutableListOf(R.drawable.img_cleaning, R.drawable.img_sleeping, R.drawable.img_wakeup,
-            R.drawable.img_travel,R.drawable.img_student, R.drawable.img_walkingschool)
+            R.drawable.img_travel, R.drawable.img_student, R.drawable.img_walkingschool)
 
     private val adapter1 = ListKegiatanAdapter(listImgKegiatan1)
     private val adapter2 = ListKegiatanAdapter(listImgKegiatan2)
     private val adapter3 = ListKegiatanAdapter(listImgKegiatan3)
 
     private val audiojp1 = mutableListOf(R.raw.kegiatan_mencuci_muka_jp, R.raw.kegiatan_sikat_gigi_jp, R.raw.kegiatan_mandi_jp, R.raw.kegiatan_sarapan_jp, R.raw.kegiatan_minum_teh_jp, R.raw.kegiatan_membaca_koran_jp)
-    private val audiojp2 = mutableListOf( R.raw.kegiatan_mendengar_lagu_jp, R.raw.kegiatan_menulis_surat_jp, R.raw.kegiatan_nonton_tv_jp, R.raw.kegiatan_mengerjakan_pr_jp, R.raw.kegiatan_berdoa_jp, R.raw.kegiatan_mencuci_jp)
-    private val audiojp3 = mutableListOf(R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_tidur_jp,R.raw.kegiatan_bangun_jp, R.raw.kegiatan_informasi_makan, R.raw.kegiatan_pulang_ke_rumah_jp,R.raw.kegiatan_datang_ke_sekolah_jp)
+    private val audiojp2 = mutableListOf(R.raw.kegiatan_mendengar_lagu_jp, R.raw.kegiatan_menulis_surat_jp, R.raw.kegiatan_nonton_tv_jp, R.raw.kegiatan_mengerjakan_pr_jp, R.raw.kegiatan_berdoa_jp, R.raw.kegiatan_mencuci_jp)
+    private val audiojp3 = mutableListOf(R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_tidur_jp, R.raw.kegiatan_bangun_jp, R.raw.kegiatan_informasi_makan, R.raw.kegiatan_pulang_ke_rumah_jp, R.raw.kegiatan_datang_ke_sekolah_jp)
     //audio 3 (kegiatan_informasi_makan) harusnya diganti sama pergi ke jepang
     private val audioid1 = mutableListOf(R.raw.kegiatan_mencuci_muka_id, R.raw.kegiatan_sikat_gigi_id, R.raw.kegiatan_mandi_id, R.raw.kegiatan_sarapan_id, R.raw.kegiatan_minum_teh_id, R.raw.kegiatan_membaca_koran_id)
-    private val audioid2 = mutableListOf( R.raw.kegiatan_mendengar_lagu_id, R.raw.kegiatan_menulis_surat_id, R.raw.kegiatan_nonton_tv_id, R.raw.kegiatan_mengerjakan_pr_id, R.raw.kegiatan_berdoa_id, R.raw.kegiatan_mencuci_id)
+    private val audioid2 = mutableListOf(R.raw.kegiatan_mendengar_lagu_id, R.raw.kegiatan_menulis_surat_id, R.raw.kegiatan_nonton_tv_id, R.raw.kegiatan_mengerjakan_pr_id, R.raw.kegiatan_berdoa_id, R.raw.kegiatan_mencuci_id)
     private val audioid3 = mutableListOf(
-        R.raw.kegiatan_bersih_bersih_id, R.raw.kegiatan_tidur_id,
-        R.raw.kegiatan_bangun_id, R.raw.kegiatan_pergi_ke_jepang_id,
-        R.raw.kegiatan_pualng_ke_rumah_id, R.raw.kegiatan_datang_ke_sekolah_id)
+            R.raw.kegiatan_bersih_bersih_id, R.raw.kegiatan_tidur_id,
+            R.raw.kegiatan_bangun_id, R.raw.kegiatan_pergi_ke_jepang_id,
+            R.raw.kegiatan_pualng_ke_rumah_id, R.raw.kegiatan_datang_ke_sekolah_id)
 
 
     lateinit var soundjp : MediaPlayer
@@ -103,6 +108,14 @@ class KegiatanActivity : AppCompatActivity() {
                 else{
                     pos_adapter = 0
                 }
+            }
+
+            btnMenu.setOnClickListener {
+                finish()
+            }
+
+            ivHelp.setOnClickListener{
+                dialog()
             }
         }
 
@@ -177,6 +190,23 @@ class KegiatanActivity : AppCompatActivity() {
             soundid.reset()
             binding.ivSoundIndo.visibility = View.GONE
         }
+
+    }
+
+    private fun dialog(){
+        val dialog = AlertDialog.Builder(this@KegiatanActivity)
+        dialog.apply {
+            val view = layoutInflater.inflate(R.layout.layout_info_makanan, null)
+            setView(view)
+            setCancelable(true)
+            setIcon(R.mipmap.ic_launcher)
+
+            val close = view.findViewById<ImageView>(R.id.ivClose)
+
+            close.setOnClickListener {
+
+            }
+        }.show()
 
     }
 }

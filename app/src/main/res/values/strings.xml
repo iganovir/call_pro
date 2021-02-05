@@ -266,5 +266,20 @@
     <string name="pop_up_text2">1. Berarti Nasi Putih</string>
     <string name="pop_up_text3">2. Berarti Lauk Pauk</string>
 
+<!--    nama-->
+    <string name="masthur">Muhammad Masthuur Perdana Putra</string>
+    <string name="auliya">Auliya Elsa Rahmah</string>
+    <string name="fivit">Fivit damayanti</string>
+    <string name="fitri">Fitri hijriah</string>
 
+<!-- instagram-->
+    <string name="igmasthur">putraa0997</string>
+    <string name="igauliya">aulel_</string>
+    <string name="igfivit">fivitdamaynt_</string>
+    <string name="igfitri">fitrii_hijriah</string>
+
+    <string name="emasthur">putram0908@gmail.com</string>
+    <string name="eauliya">auliyaelsarahmah@gmail.com</string>
+    <string name="efivit">fivitdamaynt@gmail.com</string>
+    <string name="efitri">fitrihijriah37@gmail.com</string>
 </resources>

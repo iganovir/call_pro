@@ -29,6 +29,7 @@
         <activity android:name=".ui.kegiatan.PercakapanKegiatanActivity" android:screenOrientation="landscape"/>
         <activity android:name=".ui.ResultTestActivity" android:screenOrientation="landscape"/>
         <activity android:name=".ui.kendaraan.PercakapanKendaraanActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".AboutUsActivity" android:screenOrientation="landscape"/>
 
     </application>
 

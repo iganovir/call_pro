@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.call.learnjapanese.AboutUsActivity
 import com.call.learnjapanese.R
 import com.call.learnjapanese.databinding.ActivityMenuBinding
 import com.call.learnjapanese.ui.kegiatan.KegiatanActivity
@@ -43,6 +44,10 @@ class MenuActivity : AppCompatActivity() {
 
         binding.btnMenuTest.setOnClickListener {
             startActivity(Intent(this, TestActivity::class.java))
+        }
+
+        binding.ivAboutUs.setOnClickListener{
+            startActivity(Intent(this, AboutUsActivity::class.java))
         }
     }
 }

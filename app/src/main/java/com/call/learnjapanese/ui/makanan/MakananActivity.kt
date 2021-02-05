@@ -5,6 +5,8 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import android.widget.ImageView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.call.learnjapanese.ListMakananAdapter
 import com.call.learnjapanese.R
