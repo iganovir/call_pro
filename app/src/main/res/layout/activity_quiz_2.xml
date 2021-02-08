@@ -73,8 +73,8 @@
 
         <ImageView
             android:id="@+id/ivTest3"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:src="@drawable/img_facewash"
             android:background="@drawable/bg_white_rounded"
             android:padding="@dimen/_10sdp"
@@ -84,8 +84,8 @@
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/ivTest2"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:background="@drawable/bg_white_rounded"
             android:padding="@dimen/_10sdp"
             app:layout_constraintStart_toEndOf="@id/ivTest1"
@@ -96,7 +96,6 @@
             android:id="@+id/tvMenit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/_14ssp"
             android:textColor="@color/black"
             android:text="45分"
             android:fontFamily="@font/quicksand_semi_bold"
@@ -107,8 +106,8 @@
 
         <ImageView
             android:id="@+id/ivTest1"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:src="@drawable/img_facewash"
             android:background="@drawable/bg_white_rounded"
             android:padding="@dimen/_10sdp"

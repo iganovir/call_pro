@@ -8,7 +8,7 @@
     <Button
         android:id="@+id/btnJawaban"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_45sdp"
+        android:layout_height="@dimen/_37sdp"
         android:backgroundTint="@color/yellow_option"
         android:textColor="@color/middle_black"
         android:textStyle="bold"

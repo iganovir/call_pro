@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLabelAturan"
         android:layout_marginEnd="@dimen/_16sdp"
-        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginTop="@dimen/_35sdp"
         android:layout_marginBottom="@dimen/_17sdp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"

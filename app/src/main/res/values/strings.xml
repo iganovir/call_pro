@@ -190,11 +190,11 @@
 <!--    Percakapan dalam kendaraan-->
     <string name="bubble_1_japan_kendaraan">うちから　がっこうまで　なにで　いきますか </string>
     <string name="bubble_1_kendaraan">Dari rumah ke sekolah naik apa?</string>
-    <string name="bubble_2_japan_kendaraan">うちから　がっこうまで　バスで　いきますか </string>
+    <string name="bubble_2_japan_kendaraan">うちから　がっこうまで　バスで　いきます </string>
     <string name="bubble_2_kendaraan">Dari rumah ke sekolah naik bis</string>
     <string name="bubble_3_japan_kendaraan">どのぐらいですか </string>
     <string name="bubble_3_kendaraan">Sekitar Berapa Lama?</string>
-    <string name="bubble_4_japan_kendaraan">うちから　がっこうまで　バスで　いきますか </string>
+    <string name="bubble_4_japan_kendaraan">３０分ぐらいです。 </string>
     <string name="bubble_4_kendaraan">Sekitar 30 Menit</string>
 
 <!--    Test-->

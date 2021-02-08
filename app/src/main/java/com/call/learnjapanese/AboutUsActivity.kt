@@ -26,6 +26,7 @@ class AboutUsActivity : AppCompatActivity() {
         }
 
         binding.rvListteam.adapter = ListTeamAdapter(context = this@AboutUsActivity)
+        binding.rvListteam.setHasFixedSize(true)
 
     }
 }

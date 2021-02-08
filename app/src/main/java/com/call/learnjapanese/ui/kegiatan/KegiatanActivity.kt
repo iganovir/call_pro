@@ -41,7 +41,7 @@ class KegiatanActivity : AppCompatActivity() {
 
     private val audiojp1 = mutableListOf(R.raw.kegiatan_mencuci_muka_jp, R.raw.kegiatan_sikat_gigi_jp, R.raw.kegiatan_mandi_jp, R.raw.kegiatan_sarapan_jp, R.raw.kegiatan_minum_teh_jp, R.raw.kegiatan_membaca_koran_jp)
     private val audiojp2 = mutableListOf(R.raw.kegiatan_mendengar_lagu_jp, R.raw.kegiatan_menulis_surat_jp, R.raw.kegiatan_nonton_tv_jp, R.raw.kegiatan_mengerjakan_pr_jp, R.raw.kegiatan_berdoa_jp, R.raw.kegiatan_mencuci_jp)
-    private val audiojp3 = mutableListOf(R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_tidur_jp, R.raw.kegiatan_bangun_jp, R.raw.kegiatan_informasi_makan, R.raw.kegiatan_pulang_ke_rumah_jp, R.raw.kegiatan_datang_ke_sekolah_jp)
+    private val audiojp3 = mutableListOf(R.raw.kegiatan_bersih_bersih_jp, R.raw.kegiatan_tidur_jp, R.raw.kegiatan_bangun_jp, R.raw.kegiatan_pergi_kejepan_jp    , R.raw.kegiatan_pulang_ke_rumah_jp, R.raw.kegiatan_datang_ke_sekolah_jp)
     //audio 3 (kegiatan_informasi_makan) harusnya diganti sama pergi ke jepang
     private val audioid1 = mutableListOf(R.raw.kegiatan_mencuci_muka_id, R.raw.kegiatan_sikat_gigi_id, R.raw.kegiatan_mandi_id, R.raw.kegiatan_sarapan_id, R.raw.kegiatan_minum_teh_id, R.raw.kegiatan_membaca_koran_id)
     private val audioid2 = mutableListOf(R.raw.kegiatan_mendengar_lagu_id, R.raw.kegiatan_menulis_surat_id, R.raw.kegiatan_nonton_tv_id, R.raw.kegiatan_mengerjakan_pr_id, R.raw.kegiatan_berdoa_id, R.raw.kegiatan_mencuci_id)
